@@ -1,0 +1,16 @@
+** Backend **
+1. C# | Javascript | TypeScript
+2. ASP.NET Core | Nodejs | Expressjs | Nestjs | Socketio
+3. SQL | MySQL | PostgreSQL | MongoDB
+4. EF Core | Sequelize | TypeORM | Mongoose
+5. REST | GraphQL | gRPC | tRPC
+6. .NET Core Identity | JWT | 0Auth2 | Passport.js | SSO
+7. Docker
+8. Microservice Architecture | Service Decomposition | Communication Patterns (REST | gRPC | Message Queues) 
+9. API Development | Service Communication | RabbitMQ | Service Mesh | Service Discovery and Load Balancing | Consul-Eureka
+10. Database per Microservice | Data Partioning and Sharding | Polyglot Persistance | Event Sourcing | CQRS | Saga Patterns
+11. AWS Services : EC2 | Lambda | Elasticbeanstalk | S3 | EBS | RDS | DynamoDB | VPC | Route 53 | Elastic Load Balancing | IAM | Cognito | KMS | SQS | SNS | API Gateway
+ECS | EKS | CloudFront
+12. Kubernetes | Service Mesh | Helm Charts
+13. Prometheus | Grafana | New Relic | ELK | Jeager | Zipkin
+14. Git | GitHub | IaC | Terraform | AWS CloudFormation | Ansible | Chef | Puppet | CI/CD | Jenkins | Github Actions | Gitlab CI/CD | Azure Pipelines
