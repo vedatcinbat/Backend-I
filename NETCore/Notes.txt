@@ -1,0 +1,80 @@
+===================================================
+Basics
+===================================================
+Basics of ASP.NET Core (Done)
+- Introduction to ASP.NET Core (Done)
+
+What is ASP.NET Core? (Done)
+- Differences between ASP.NET Core and ASP.NET Framework
+- Why ASP.NET Core is ideal for modern web applications
+
+Setting Up ASP.NET Core (Done)
+- Installing the .NET SDK and Visual Studio
+- Creating your first ASP.NET Core project (dotnet new webapp or dotnet new webapi)
+- Understanding the project structure (Program.cs, appsettings.json)
+- Running and testing your first ASP.NET Core application
+
+Understanding Middleware (Done)
+- What is middleware in ASP.NET Core?
+- The request pipeline and how middleware works
+- Adding and configuring middleware (e.g., logging, routing, exception handling)
+- Writing custom middleware
+
+Controllers and Routing (Done)
+- What are controllers in ASP.NET Core?
+- Using attribute routing vs conventional routing
+- Creating basic controllers and actions
+- Handling requests with different HTTP methods (GET, POST, PUT, DELETE)
+
+Dependency Injection in ASP.NET Core (Done)
+- What is Dependency Injection (DI)?
+- Built-in DI system in ASP.NET Core
+- Registering services (transient, scoped, singleton)
+- Injecting dependencies into controllers and services
+
+===================================================
+Intermediate Topics
+===================================================
+Building REST APIs with ASP.NET Core (Done)
+- Creating Web API projects in ASP.NET Core
+- Understanding controllers and actions for APIs
+- Using data annotations for validation
+- Returning status codes and custom responses
+- Working with JSON in APIs
+
+Authentication and Authorization (Done)
+- Introduction to ASP.NET Core Identity for user management
+- Implementing JWT (JSON Web Token) authentication for APIs
+- Role-based authorization in ASP.NET Core
+- Securing API endpoints with policies and roles
+
+Asynchronous Programming with ASP.NET Core (Done)
+- Why async/await is essential for performance
+- Refactoring controllers and services to use async/await
+- Avoiding common pitfalls with asynchronous code
+
+Middleware Customization (Done)
+- Writing custom middleware to handle specific cross-cutting concerns
+- Using middleware for logging, error handling, and authentication
+- Configuring the order of middleware in the request pipeline
+
+===================================================
+Advanced Topics
+===================================================
+Advanced API Features (Done)
+- API versioning strategies in ASP.NET Core
+- Handling pagination, sorting, and filtering in APIs
+- Creating HATEOAS (Hypermedia as the Engine of Application State) compliant APIs
+- Throttling and rate limiting for APIs
+
+Caching and Performance Optimization (Done)
+- Caching strategies in ASP.NET Core (in-memory, distributed caching)
+- Using Redis for distributed caching in web applications
+- Reducing application memory footprint and improving response times
+- Understanding memory management and garbage collection in .NET
+
+Microservices with ASP.NET Core (Done)
+- What are microservices, and why use them?
+- Creating microservices with ASP.NET Core
+- Using messaging systems like RabbitMQ or Kafka for communication between microservices
+- Implementing API gateways (e.g., Ocelot, YARP)

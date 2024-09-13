@@ -1,0 +1,61 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code settings
+.idea/
+.vscode/
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# Ignore package management folders
+node_modules/
+wwwroot/lib/
+
+# Logs
+*.log
+logs/
+
+# DotNet Publish outputs
+publish/
+out/
+
+# NuGet Packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Debugging / Visual Studio Code generated files
+.vscode/*
+.vscode-test/
+
+# Resharper / Rider
+*.DotSettings.user
+
+# Database & migrations
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Entity Framework generated
+Migrations/
+
+# Dotnet watch/command line temp files
+*.csproj.user
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Other files
+*.swp
+*.DS_Store
