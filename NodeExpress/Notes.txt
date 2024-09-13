@@ -28,13 +28,13 @@ Handling Requests and Responses (Done)
 - Sending response data (JSON format, status codes, etc.)
 - Error handling (try-catch, custom error middleware)
 
-Security Best Practices
+Security Best Practices (Done)
 - Using HTTPS and secure headers (helmet.js)
 - Preventing SQL Injection, XSS, and other vulnerabilities
 - Protecting routes with authentication and authorization
 - Rate limiting, IP whitelisting, and brute-force attack prevention
 
-Error Handling
+Error Handling (Done)
 - Creating a global error handler
 - Handling 404 routes
 - Managing async errors with try-catch or libraries like async-handler
