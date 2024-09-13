@@ -17,29 +17,16 @@ REST API Design (Done)
 - Understanding status codes (200, 201, 204, 400, 401, 404, 500, etc.)
 - Query parameters, route parameters, and request body
 
-Middleware in Express
+Middleware in Express (Done)
 - Understanding middleware functions and how they work
 - Built-in middleware (e.g., express.json(), express.urlencoded())
 - Third-party middleware (e.g., cors, helmet, morgan)
 - Custom middleware
 
-Handling Requests and Responses
+Handling Requests and Responses (Done)
 - Accessing request headers, query parameters, and body
 - Sending response data (JSON format, status codes, etc.)
 - Error handling (try-catch, custom error middleware)
-
-Working with Databases
-- Connecting Node.js to databases (SQL or NoSQL)
-- MongoDB with Mongoose
-- MySQL or PostgreSQL with Sequelize or TypeORM
-- Querying databases, managing relationships, and handling transactions
-- Data validation and sanitization (using packages like joi or express-validator)
-
-Authentication and Authorization
-- JSON Web Tokens (JWT)
-- Passport.js for OAuth or session-based authentication
-- Securing endpoints with authentication middleware
-- Role-based access control
 
 Security Best Practices
 - Using HTTPS and secure headers (helmet.js)
