@@ -1,0 +1,80 @@
+Node.js Fundamentals (Done)
+- What is Node.js, how it works (non-blocking I/O, event-driven architecture)
+- Understanding npm (Node Package Manager) and package.json
+- Modules and require
+- File system module (for working with files)
+
+Express.js Basics (Done)
+- Installing and setting up Express.js
+- Express.js routing and middleware
+- Creating your first API endpoint
+- Handling different HTTP methods (GET, POST, PUT, DELETE, PATCH)
+
+REST API Design (Done)
+- Principles of RESTful architecture
+- Structuring routes (e.g., resource-oriented endpoints)
+- CRUD operations (Create, Read, Update, Delete)
+- Understanding status codes (200, 201, 204, 400, 401, 404, 500, etc.)
+- Query parameters, route parameters, and request body
+
+Middleware in Express
+- Understanding middleware functions and how they work
+- Built-in middleware (e.g., express.json(), express.urlencoded())
+- Third-party middleware (e.g., cors, helmet, morgan)
+- Custom middleware
+
+Handling Requests and Responses
+- Accessing request headers, query parameters, and body
+- Sending response data (JSON format, status codes, etc.)
+- Error handling (try-catch, custom error middleware)
+
+Working with Databases
+- Connecting Node.js to databases (SQL or NoSQL)
+- MongoDB with Mongoose
+- MySQL or PostgreSQL with Sequelize or TypeORM
+- Querying databases, managing relationships, and handling transactions
+- Data validation and sanitization (using packages like joi or express-validator)
+
+Authentication and Authorization
+- JSON Web Tokens (JWT)
+- Passport.js for OAuth or session-based authentication
+- Securing endpoints with authentication middleware
+- Role-based access control
+
+Security Best Practices
+- Using HTTPS and secure headers (helmet.js)
+- Preventing SQL Injection, XSS, and other vulnerabilities
+- Protecting routes with authentication and authorization
+- Rate limiting, IP whitelisting, and brute-force attack prevention
+
+Error Handling
+- Creating a global error handler
+- Handling 404 routes
+- Managing async errors with try-catch or libraries like async-handler
+
+Testing REST APIs
+- Unit testing (e.g., Mocha, Chai, Jest)
+- Integration testing (e.g., Supertest)
+- Writing tests for your API endpoints
+- Mocking API calls and database interactions
+
+Versioning Your API
+- Best practices for API versioning
+- Structuring routes for different versions (e.g., /v1/users, /v2/users)
+
+API Documentation
+- Documenting your APIs with tools like Swagger (OpenAPI Specification)
+- Using tools like Postman for testing and documentation
+
+Deployment
+- Packaging and deploying Node.js applications (e.g., on Heroku, AWS, DigitalOcean)
+- Using process managers like PM2 for production
+- Environment variables (dotenv)
+- Setting up CI/CD pipelines (e.g., GitLab CI/CD, GitHub Actions)
+
+Advanced Topics
+- Caching (Redis, memory caching)
+- WebSockets (if you need real-time communication)
+- Rate limiting and throttling
+- API pagination, filtering, and sorting
+- Logging (Winston, Morgan) and monitoring (ELK Stack, Prometheus, Grafana)
