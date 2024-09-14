@@ -2,8 +2,12 @@ NETCore/Basics/bin/
 NETCore/Basics/obj/
 NETCore/obj/
 
-Nestjs/my-nest-app/node_modules/
-Nestjs/my-nest-app/dist/
-Nestjs/my-nest-app/.vscode/
-Nestjs/my-nest-app/.idea/
-Nestjs/my-nest-app/README.md
+Nestjs/my-first-nest-app/node_modules/
+Nestjs/my-first-nest-app/dist/
+Nestjs/my-first-nest-app/.vscode/
+Nestjs/my-first-nest-app/.idea/
+Nestjs/my-first-nest-app/.env
+Nestjs/my-first-nest-app/.env.example
+Nestjs/my-first-nest-app/.env.local
+Nestjs/my-first-nest-app/.env.development
+Nestjs/my-first-nest-app/.env.production
