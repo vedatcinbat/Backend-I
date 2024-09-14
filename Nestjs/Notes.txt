@@ -1,0 +1,250 @@
+# NestJS Learning Path with Subtopics
+
+## Beginner Level
+1. **Introduction to NestJS** (Done)
+   - What is NestJS? Why use it?
+   - Node.js and Express.js overview
+   - NestJS core principles (Modular, Scalable, Testable)
+   - How NestJS compares to other frameworks
+
+2. **Installation and Project Setup** (Done)
+   - Installing NestJS using CLI
+   - Setting up a basic project
+   - Understanding the `main.ts` file
+
+3. **NestJS Project Structure** (Done)
+   - Controllers, Services, Modules overview
+   - Importance of each folder and file
+   - Configuration of `tsconfig.json`
+
+4. **Controllers and Routing** (Done)
+   - Creating basic controllers
+   - Handling HTTP methods (GET, POST, PUT, DELETE)
+   - Using route parameters and query parameters
+   - Route grouping with modules
+
+5. **Services and Dependency Injection**
+   - Creating services
+   - Dependency Injection (DI) overview
+   - Using services in controllers
+   - Injecting providers into services
+
+6. **Modules in NestJS**
+   - What is a module?
+   - Creating and organizing modules
+   - Feature modules vs shared modules
+   - Modular organization best practices
+
+7. **Handling HTTP Requests and Responses**
+   - How NestJS handles HTTP requests
+   - Sending responses using different status codes
+   - Working with JSON, form-data, etc.
+   - Handling errors in responses
+
+8. **Introduction to Middleware**
+   - What is middleware in NestJS?
+   - Creating and using basic middleware
+   - Applying middleware to routes or globally
+
+9. **NestJS CLI (Command Line Interface)**
+   - Using CLI commands for generating components
+   - Automating module creation
+   - NestJS CLI vs manual component creation
+
+10. **Exception Handling (try-catch, Filters)**
+   - Using `try-catch` for error handling
+   - Built-in exception filters (`HttpException`)
+   - Creating custom exception filters
+   - Global exception handling
+
+11. **Working with DTOs (Data Transfer Objects)**
+   - What are DTOs and why use them?
+   - Defining DTO classes
+   - How to validate DTOs
+
+12. **Basic Validation with Pipes**
+   - Introduction to pipes
+   - Using built-in pipes (e.g., `ValidationPipe`)
+   - Creating custom pipes
+   - Using pipes with parameters
+
+13. **Basic CRUD Operations**
+   - Creating a simple REST API (Create, Read, Update, Delete)
+   - Using services to interact with the database
+   - Implementing pagination and filtering
+
+14. **Connecting NestJS with PostgreSQL using TypeORM**
+   - What is TypeORM?
+   - Setting up PostgreSQL database
+   - Configuring TypeORM with NestJS
+   - Defining entities and repositories
+
+15. **Introduction to Postman for API Testing**
+   - Installing Postman
+   - Creating and testing HTTP requests
+   - Automating tests for endpoints
+
+## Intermediate Level
+1. **Advanced Dependency Injection and Providers**
+   - Scoped providers (Transient, Request-scoped)
+   - Using `@Injectable()` decorator
+   - Registering and injecting custom providers
+
+2. **Custom Pipes, Guards, and Interceptors**
+   - Creating custom pipes for advanced validation
+   - Guards for route protection (e.g., `AuthGuard`)
+   - Using interceptors for modifying request/response
+
+3. **Authentication and Authorization (JWT, Passport.js)**
+   - Setting up authentication with Passport.js
+   - JWT-based authentication strategy
+   - Authorization (role-based and permission-based)
+
+4. **Middleware - Custom Middleware Creation**
+   - Creating and applying custom middleware
+   - Middleware execution order
+   - Real-world use cases (e.g., logging, security)
+
+5. **Working with MongoDB using Mongoose**
+   - Setting up Mongoose in NestJS
+   - Defining schemas and models
+   - CRUD operations using Mongoose
+   - Managing database relations with MongoDB
+
+6. **NestJS Configuration and Environment Variables**
+   - Using the `@nestjs/config` package
+   - Creating and loading environment variables
+   - Managing multiple environments (dev, prod)
+
+7. **Caching with Redis in NestJS**
+   - Setting up Redis with NestJS
+   - Caching data using Redis
+   - Applying cache to REST API responses
+   - Cache invalidation strategies
+
+8. **API Versioning**
+   - Why and when to use API versioning
+   - Setting up versioned routes
+   - Applying versioning globally or per route
+
+9. **Request Lifecycle in NestJS**
+   - Overview of the request lifecycle
+   - How middleware, guards, pipes, and interceptors fit into the lifecycle
+
+10. **Asynchronous Programming (Promises, Observables)**
+   - Difference between promises and observables
+   - Implementing asynchronous services in NestJS
+   - Using RxJS with NestJS
+
+11. **Working with WebSockets (Real-time Communication)**
+   - Setting up WebSocket server with NestJS
+   - Real-time messaging and broadcasting
+   - Use cases (e.g., chat apps, notifications)
+
+12. **Handling File Uploads**
+   - Setting up file uploads with Multer
+   - Handling large file uploads (e.g., chunking, streaming)
+   - Securing file uploads (file type, size validation)
+
+13. **Implementing Rate Limiting**
+   - Setting up rate limiting with NestJS
+   - Applying rate limits per IP/user
+   - Handling API abuse and DoS attacks
+
+14. **Testing in NestJS (Unit Tests, E2E Testing)**
+   - Introduction to unit and e2e testing
+   - Using Jest for unit testing
+   - Testing controllers and services
+   - E2E testing with supertest
+
+15. **GraphQL Integration in NestJS**
+   - Setting up GraphQL module
+   - Creating queries, mutations, and resolvers
+   - Using Apollo Server with NestJS
+   - Schema-first vs code-first approach
+
+16. **Microservices Architecture (Using RabbitMQ, Kafka)**
+   - Setting up RabbitMQ/Kafka with NestJS
+   - Message-driven communication between services
+   - Using patterns like request/response, event-based communication
+
+## Advanced Level
+1. **Advanced Validation with Class Validator**
+   - Using `class-validator` for advanced validation
+   - Nested validation and custom validators
+   - Error handling and custom messages
+
+2. **Dynamic Modules and Lazy Loading**
+   - What are dynamic modules?
+   - Creating dynamic modules for configuration
+   - Lazy loading modules to improve performance
+
+3. **Creating Custom Decorators**
+   - Why use custom decorators?
+   - Creating parameter and method decorators
+   - Real-world use cases (e.g., logging, tracking)
+
+4. **Event-Driven Architecture in NestJS**
+   - Setting up event emitters
+   - Event-driven communication between services
+   - Implementing CQRS (Command Query Responsibility Segregation) patterns
+
+5. **Advanced Database Techniques (Transaction, Seeding, Migrations)**
+   - Handling transactions with TypeORM or Mongoose
+   - Database seeding for test and dev environments
+   - Creating and managing database migrations
+
+6. **Using CQRS (Command Query Responsibility Segregation) in NestJS**
+   - What is CQRS and when to use it
+   - Setting up CQRS with NestJS
+   - Handling complex domain logic using commands and queries
+
+7. **Advanced Authentication with OAuth2, Social Login**
+   - Setting up OAuth2 flow
+   - Implementing social logins (Google, Facebook, GitHub)
+   - Securing API routes with OAuth2
+
+8. **Security Best Practices in NestJS (Helmet, CSRF, CORS)**
+   - Implementing Helmet.js for basic security
+   - Enabling CORS correctly
+   - Preventing CSRF attacks with CSRF tokens
+
+9. **NestJS with Docker and Kubernetes**
+   - Creating Dockerfiles for NestJS apps
+   - Setting up Kubernetes for deployment
+   - Managing containers with Docker Compose
+
+10. **Deployment Strategies (CI/CD with NestJS)**
+   - Setting up CI/CD pipelines
+   - Automating tests and deployments
+   - Using GitLab CI/CD, GitHub Actions, or Jenkins
+
+11. **Distributed Systems and Microservices Communication Patterns (gRPC, Message Queues)**
+   - Implementing gRPC communication
+   - Scaling microservices with message queues
+   - Handling failure and retries
+
+12. **Using OpenAPI and Swagger for API Documentation**
+   - Setting up Swagger for auto-generated docs
+   - Customizing API documentation
+   - Adding authentication to Swagger UI
+
+13. **Customizing and Extending NestJS Core Modules**
+   - Creating custom core modules
+   - Extending built-in functionality
+   - Applying custom behavior across the app
+
+14. **Implementing Event Sourcing and CQRS Patterns**
+   - What is event sourcing?
+   - Storing and replaying events
+   - Combining CQRS with event sourcing
+
+15. **Performance Optimization Techniques in NestJS**
+   - Caching, rate limiting, and request batching
+   - Monitoring and profiling with tools like Prometheus and Grafana
+   - Reducing latency with efficient database queries
+
+16. **Monitoring and Logging (Integrating Prometheus, Grafana)**
+   - Setting up logging with NestJS
+   - Using Prometheus and Grafana for monitoring
+   - Creating real-time dashboards for NestJS apps
