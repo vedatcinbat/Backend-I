@@ -1,6 +1,6 @@
 ** Backend **
 1. C# | Javascript | TypeScript (Done)
-2. ASP.NET Core | Nodejs | Expressjs | Nestjs | Socketio
+2. ASP.NET Core | Nodejs | Expressjs | Nestjs (Done)
 3. SQL | MySQL | PostgreSQL | MongoDB
 4. EF Core | Sequelize | TypeORM | Mongoose
 5. REST | GraphQL | gRPC | tRPC
