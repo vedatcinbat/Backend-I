@@ -1,0 +1,65 @@
+Beginner Level
+- Introduction to EF Core
+- What is EF Core?
+- Benefits of Using EF Core
+- Setting Up EF Core in ASP.NET Core
+- Basic EF Core Setup
+    - Installing EF Core NuGet Packages
+    - Configuring a DbContext
+    - Connecting to SQL and MySQL Databases
+    - Basic CRUD Operations
+        - Creating Entities
+        - Creating a Database from Models (Code-First Approach)
+        - Read: Querying Data (LINQ Basics)
+        - Update: Modifying Data
+        - Delete: Removing Data
+    - Migrations
+        - Introduction to Migrations
+        - Adding, Applying, and Removing Migrations
+        - Seeding Data Using Migrations
+
+Intermediate Level
+- Data Modeling and Relationships
+    - Defining Relationships (One-to-One, One-to-Many, Many-to-Many)
+    - Fluent API vs Data Annotations
+    - Configuring Cascade Deletes
+    - Table Splitting and Owned Entities
+- Querying Data with LINQ
+    - Filtering, Sorting, and Grouping Data
+    - Asynchronous Queries
+    - Projections (Select, SelectMany)
+    - Including Related Data (Eager Loading)
+    - Deferred Execution in LINQ
+- Tracking and Change Tracking
+    - Change Tracking Overview
+    - No-Tracking Queries
+    - Explicit Loading and Lazy Loading
+- Migrations in Depth
+    - Customizing Migrations
+    - Working with Existing Databases (Database-First Approach)
+    - Handling Model Changes Without Data Loss
+
+Advanced Level
+- Advanced Data Modeling
+    - Inheritance Strategies (Table-per-Hierarchy, Table-per-Type)
+    - Complex Types and Value Conversions
+    - Shadow Properties
+    - Global Query Filters
+- Performance Optimization
+    - Query Performance Tuning (Split Queries, Batching)
+    - Caching Data in EF Core
+    - Managing Large Datasets
+    - Using Compiled Queries for Performance
+- Concurrency Control
+    - Handling Concurrency in EF Core
+    - Optimistic Concurrency with RowVersion
+    - Concurrency Tokens
+- Advanced Features
+    - Raw SQL Queries
+    - Working with Transactions
+    - Stored Procedures and Functions in EF Core
+    - Using Interceptors for Custom Logic
+- Testing with EF Core
+    - Unit Testing with In-Memory Databases
+    - Mocking DbContext in Tests
+    - Testing Queries and Commands

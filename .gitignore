@@ -11,3 +11,12 @@ Nestjs/my-first-nest-app/.env.example
 Nestjs/my-first-nest-app/.env.local
 Nestjs/my-first-nest-app/.env.development
 Nestjs/my-first-nest-app/.env.production
+
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/bin/
+NETCore/EFCore/EFCoreRestApi/.idea/
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/obj/
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/bin/
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/obj/
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/Properties/
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/appsettings.Development.json
+NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/appsettings.json
