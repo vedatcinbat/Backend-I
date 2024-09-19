@@ -20,3 +20,5 @@ NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/obj/
 NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/Properties/
 NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/appsettings.Development.json
 NETCore/EFCore/EFCoreRestApi/EFCoreRestApi/appsettings.json
+
+TypeORM/my-type-orm-app/node_modules/

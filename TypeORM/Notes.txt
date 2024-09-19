@@ -1,0 +1,102 @@
+1. Introduction to TypeORM (Done)
+    - What is TypeORM, and why use it in NestJS?
+    - Benefits of using TypeORM over other ORMs.
+    - Overview of TypeORM's features (entities, repositories, migrations).
+
+2. Project Setup with NestJS and TypeORM (Done)
+    - Setting up a new NestJS project.
+    - Installing TypeORM and database-specific drivers (MySQL).
+    - Integrating TypeORM with NestJS using @nestjs/typeorm.
+
+3. Database Configuration (Done)
+    - Configuring TypeORM connection options in app.module.ts.
+    - Setting up multiple environments (development, production, test) in ormconfig.json or programmatically.
+    - Handling database connection errors.
+
+4. Entities and Models (Done)
+    - Creating an entity using TypeORM decorators (@Entity, @Column, etc.).
+    - Mapping database tables to TypeORM entities.
+    - Handling primary keys and auto-generation (@PrimaryGeneratedColumn).
+    - Defining column types (@Column) and using special types (e.g., varchar, integer, date).
+
+5. Relations and Associations (Done)
+    - Defining relationships between entities:
+      - One-to-One (@OneToOne)
+      - One-to-Many (@OneToMany)
+      - Many-to-One (@ManyToOne)
+      - Many-to-Many (@ManyToMany)
+    - Working with cascading operations in relations (cascade: true).
+    - Eager and lazy loading of related entities.
+
+6. CRUD Operations (Repositories)
+    - Using TypeORM repositories for CRUD operations:
+      - find, findOne, save, update, delete, count.
+    - Performing basic queries in the repository.
+    - Custom repository methods and queries.
+    - Difference between Repository and EntityManager.
+
+7. Advanced Querying
+    - Using the QueryBuilder for advanced queries.
+    - Filtering, sorting, and pagination.
+    - Joins (inner and left joins) and handling relationships in queries.
+    - Grouping and aggregation.
+
+8. Validations and Constraints
+    - Defining validations on entity columns.
+    - Using decorators like @IsEmail, @Length, etc., from the class-validator package.
+    - Handling uniqueness constraints with @Unique.
+
+9. Migrations
+    - Understanding migrations in TypeORM.
+    - Creating migration files using typeorm CLI.
+    - Running, reverting, and resetting migrations.
+    - Handling complex schema changes with migrations.
+
+10. Seeding the Database
+     - Creating and running seeders to populate initial data.
+     - Using third-party packages like nestjs-seeder or writing custom seed scripts.
+     - Seeding relationships between entities.
+
+11. Transaction Management
+     - Managing database transactions with TypeORM.
+     - Using transactions for atomic operations.
+     - Nesting transactions and handling rollback scenarios.
+
+12. Lifecycle Hooks
+     - Understanding TypeORM entity lifecycle hooks.
+     - Using hooks such as beforeInsert, afterUpdate, beforeRemove, etc.
+     - Practical use cases of lifecycle hooks (e.g., hashing passwords before saving).
+
+13. Soft Deletes
+     - Implementing soft delete functionality in TypeORM.
+     - Using @DeleteDateColumn and the softRemove method.
+     - Querying soft-deleted records.
+
+14. Working with Multiple Databases
+     - Connecting to multiple databases in a NestJS project.
+     - Defining multiple TypeORM connections in app.module.ts.
+     - Handling entities for different databases.
+
+15. Error Handling
+     - Common errors in TypeORM and how to resolve them.
+     - Handling validation and query errors gracefully.
+     - Managing database connection failures in NestJS.
+
+16. Testing TypeORM in NestJS
+     - Writing unit tests for services and repositories using TypeORM.
+     - Mocking database interactions for testing.
+     - Using an in-memory database (SQLite) for faster testing.
+
+17. Performance Optimization
+     - Using TypeORM caching for optimizing query performance.
+     - Optimizing complex queries with QueryBuilder.
+     - Fine-tuning database indexes and query performance.
+
+18. Custom Decorators and Metadata
+     - Creating custom decorators for reusable functionality.
+     - Using TypeORM’s metadata storage for dynamic behavior.
+
+19. Deployment and Production Configuration
+     - Handling TypeORM configuration for production environments.
+     - Managing database connections in cloud environments (AWS RDS, Azure, etc.).
+     - Running migrations and seeding in CI/CD pipelines.

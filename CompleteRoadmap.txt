@@ -1,16 +1,23 @@
 ** Backend **
-1. C# | Javascript | TypeScript (Done)
-2. ASP.NET Core | Nodejs | Expressjs | Nestjs (Done)
-3. SQL | MySQL/MsSQL | MongoDB (Done)
-4. EF Core | Sequelize | TypeORM | Mongoose
-5. REST | GraphQL | gRPC | tRPC
-6. .NET Core Identity | JWT | 0Auth2 | Passport.js | SSO
-7. Docker
-8. Microservice Architecture | Service Decomposition | Communication Patterns (REST | gRPC | Message Queues) 
-9. API Development | Service Communication | RabbitMQ | Service Mesh | Service Discovery and Load Balancing | Consul-Eureka
-10. Database per Microservice | Data Partioning and Sharding | Polyglot Persistance | Event Sourcing | CQRS | Saga Patterns
-11. AWS Services : EC2 | Lambda | Elasticbeanstalk | S3 | EBS | RDS | DynamoDB | VPC | Route 53 | Elastic Load Balancing | IAM | Cognito | KMS | SQS | SNS | API Gateway
-ECS | EKS | CloudFront
-12. Kubernetes | Service Mesh | Helm Charts
-13. Prometheus | Grafana | New Relic | ELK | Jeager | Zipkin
-14. Git | GitHub | IaC | Terraform | AWS CloudFormation | Ansible | Chef | Puppet | CI/CD | Jenkins | Github Actions | Gitlab CI/CD | Azure Pipelines
+x1. C# | Javascript | TypeScript (Done)
+x2. ASP.NET Core (Done) | Nodejs (Done) | Expressjs (Done) | Nestjs (Done)
+x3. SQL (Done) | MySQL/MsSQL (Done) | MongoDB (Done)
+x4. EF Core (Done) | TypeORM (Done)
+x5. REST | GraphQL | gRPC/tRPC
+6. React Native | React Native Paper
+7. .NET Core Identity | JWT | 0Auth2 | Passport.js | SSO
+8. Docker
+9. Microservice Architecture | Service Decomposition | Communication Patterns (REST | gRPC | Message Queues)
+10. API Development | Service Communication | RabbitMQ | Service Mesh | Service Discovery and Load Balancing | Consul-Eureka
+11. Database per Microservice | Data Partioning and Sharding | Polyglot Persistance | Event Sourcing | CQRS | Saga Patterns
+12. AWS Services : EC2 | Lambda | Elasticbeanstalk | S3 | EBS | RDS | DynamoDB | VPC | Route 53 | Elastic Load Balancing | IAM | Cognito | KMS | SQS | SNS | API Gateway
+    ECS | EKS | CloudFront
+13. Kubernetes | Service Mesh | Helm Charts
+14. Prometheus | Grafana | New Relic | ELK | Jeager | Zipkin
+15. Git | GitHub | IaC | Terraform | AWS CloudFormation | Ansible | Chef | Puppet | CI/CD | Jenkins | Github Actions | Gitlab CI/CD | Azure Pipelines
+
+** Clone Projects **
+1. Instagram Clone (React Native | Next.js-Tailwindcss-MaterialUI-TypeScript | ASP.NET Core-Node-Express-Nest-MySQL-RabbitMQ-REST-gRPC-Docker-RabbitMQ)
+2. Netflix Clone (Next.js-Tailwindcss-MaterialUI-TypeScript | ASP.NET Core-Node-Express-Nest-MySQL-RabbitMQ-REST-gRPC-Docker-RabbitMQ)
+3. Amazon Clone (Next.js-Tailwindcss-MaterialUI-TypeScript | ASP.NET Core-Node-Express-Nest-MySQL-RabbitMQ-REST-gRPC-Docker-RabbitMQ)
+4. Spotify Clone (React Native | Next.js-Tailwindcss-MaterialUI-TypeScript | ASP.NET Core-Node-Express-Nest-MySQL-RabbitMQ-REST-gRPC-Docker-RabbitMQ)
